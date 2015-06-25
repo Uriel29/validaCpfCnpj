@@ -26,6 +26,7 @@
                 settings.mask = false;
                 console.log("jQuery mask not found.");
             }
+            
             else {
                 if (settings.validate == 'cpf') {
                     $(this).mask('000.000.000-00');
